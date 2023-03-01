@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    //
+    public function articles($id){
+        echo "<h1>Halaman Artikel dengan ID $id</h1>";
+    }
 }
